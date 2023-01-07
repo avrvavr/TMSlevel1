@@ -1,0 +1,11 @@
+.works {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.works img {
+  height: 100%;
+  width: 100%;
+}
+.works img:hover {
+  background: rgba(255, 67, 67, 0.8);
+}

@@ -1,0 +1,109 @@
+.footer1 {
+  background: #353c65;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.footer2 {
+  background: #2c3154;
+  padding: 1%;
+  display: flex;
+  justify-content: center;
+}
+.footer1_conteiner {
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+}
+.footer1_location {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer1_location_one {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer1_location_two {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.footer1_share {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3em;
+}
+.footer1_share_one {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.footer1_share_two {
+  width: 40%;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer1_about {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 3em;
+}
+.footer1_about_one {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.footer1_about_two {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ffffff;
+}
+.footer2_conteiner {
+  width: 23%;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #808080;
+}
+.footer2_conteiner span {
+  color: white;
+}

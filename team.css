@@ -1,0 +1,51 @@
+.team {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80%;
+  margin: 4% auto;
+  gap: 3em;
+}
+.team_man {
+}
+.team_man_photo {
+  width: 100%;
+}
+.team_man_surname {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+
+  color: #2d3033;
+  margin-top: 10%;
+}
+.team_man_jobtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #ff4343;
+}
+.team_man_coment {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #6c7279;
+  text-align: justify;
+  margin-top: 10%;
+}
+.team_man_icon {
+  margin-top: 15%;
+}
