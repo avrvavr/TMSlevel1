@@ -53,9 +53,12 @@
   align-items: center;
   justify-content: space-between;
 }
+.slide_control a {
+  height: auto;
+}
+
 .slide_control img:hover {
   background: #7e5d6f;
-  border: 1px solid #7e5d6f;
   border-radius: 20px;
   cursor: default;
 }
