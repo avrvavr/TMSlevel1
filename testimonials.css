@@ -72,3 +72,33 @@
     line-height: 14px;
   }
 }
+@media (max-width: 800px) {
+  .testimonials {
+    display: block;
+  }
+  .testimonials_left {
+    height: 300px;
+    width: 100%;
+  }
+  .testimonials_right {
+    height: 300px;
+    width: 100%;
+    padding: 0%;
+  }
+  .testimonials_right_texth2 {
+    width: 90%;
+  }
+  .testimonials_right_texth6 {
+    width: 90%;
+  }
+  .slide_control {
+    width: 20%;
+  }
+}
+@media (max-width: 460px) {
+  .testimonials_left {
+    height: 300px;
+    width: 100%;
+    background-clip: content-box;
+  }
+}

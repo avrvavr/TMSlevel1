@@ -67,3 +67,18 @@
     line-height: 16px;
   }
 }
+@media (max-width: 800px) {
+  .team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .team_man {
+    margin-top: 15%;
+  }
+}
+@media (max-width: 400px) {
+  .team {
+    display: block;
+    width: 80%;
+  }
+}

@@ -137,3 +137,20 @@
     line-height: 16px;
   }
 }
+@media (max-width: 800px) {
+  .footer1_conteiner {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3em;
+    width: 90%;
+  }
+  .footer1_location {
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3em;
+  }
+  .footer2_conteiner {
+    width: 90%;
+    padding: 4%;
+  }
+}

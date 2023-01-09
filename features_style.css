@@ -62,3 +62,13 @@
     line-height: 16px;
   }
 }
+@media (max-width: 700px) {
+  .features {
+    width: 100%;
+    display: block;
+    margin: 0%;
+  }
+  .features_block_img {
+    margin-top: 20%;
+  }
+}

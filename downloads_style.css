@@ -62,3 +62,18 @@
     padding: 6%;
   }
 }
+@media (max-width: 800px) {
+  .downloads_button {
+    width: 60%;
+    margin: 10% auto;
+  }
+  .downloads_title {
+    padding: 10%;
+  }
+}
+@media (max-width: 800px) {
+  .downloads_button {
+    width: 80%;
+    margin: 10% auto;
+  }
+}
