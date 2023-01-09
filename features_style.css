@@ -47,3 +47,18 @@
   text-align: center;
   color: #6c7279;
 }
+@media (max-width: 1024px) {
+  .features {
+    width: 95%;
+    margin: 60px auto;
+  }
+  .features_block_title {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 6%;
+  }
+  .features_block_h5 h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

@@ -62,3 +62,13 @@
   border-radius: 20px;
   cursor: default;
 }
+@media (max-width: 1024px) {
+  .testimonials_right_texth2 h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .testimonials_right_texth6 h6 {
+    font-size: 12px;
+    line-height: 14px;
+  }
+}

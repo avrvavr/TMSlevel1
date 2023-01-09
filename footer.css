@@ -1,7 +1,7 @@
 .footer1 {
   background: #353c65;
-  padding-top: 2%;
-  padding-bottom: 2%;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 .footer2 {
   background: #2c3154;
@@ -106,4 +106,34 @@
 }
 .footer2_conteiner span {
   color: white;
+}
+@media (max-width: 1024px) {
+  .footer1_conteiner {
+    width: 95%;
+  }
+  .footer1_location_one {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .footer1_location_two {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .footer1_share_one {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .footer1_about_one {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .footer1_about_two {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .footer2_conteiner {
+    width: 30%;
+    font-size: 14px;
+    line-height: 16px;
+  }
 }
